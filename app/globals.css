@@ -1,26 +1,84 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
+  height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  background: #f8fafc;
+  color: #111827;
+}
+
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 2rem;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: bold;
+
+  color: #2563eb;
+
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 2rem;
+
+  color: #1f2937;
+
+  margin-bottom: 25px;
+}
+
+.description {
+  max-width: 700px;
+
+  line-height: 1.8;
+
+  font-size: 1.1rem;
+
+  color: #4b5563;
+
+  margin-bottom: 40px;
+}
+
+.button {
+  text-decoration: none;
+
+  background: #2563eb;
+
+  color: white;
+
+  padding: 15px 35px;
+
+  border-radius: 8px;
+
+  font-size: 18px;
+
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #1d4ed8;
+}
+
+.coming {
+  margin-top: 50px;
+
+  color: #6b7280;
+
+  font-size: 18px;
 }
