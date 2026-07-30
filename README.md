@@ -9,9 +9,7 @@ A modern personal portfolio built with **Next.js** and **TypeScript**. This proj
 ## 🚀 Live Demo
 
 **Live Website:**  
-https://your-vercel-url.vercel.app
-
-*(Replace this with your actual Vercel deployment URL.)*
+(https://flyrank5.vercel.app/)
 
 ---
 
